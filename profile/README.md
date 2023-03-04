@@ -1,5 +1,7 @@
-## Who are we
+#
 <p align="center"><img src="logofullhq.png" alt="II Logo"></p>   
+
+## Who are we  
 We are a group of Minecraft modders, who mainly work on the mod [Immersive Intelligence](https://github.com/Team-Immersive-Intelligence/ImmersiveIntelligence), an addon to [Immersive Engineering](https://github.com/BluSunrize/ImmersiveEngineering).<br>
 We plan to expand our portfolio of mods with new IE addons, to enhance the game even further.<br>
 We do it as volunteers - people who just want to enjoy the game modded in their way ^^
