@@ -1,5 +1,5 @@
 #
-<p align="center"><img src="logofullhq.png" alt="II Logo"></p>   
+<p align="center"><img src="profile/logofullhq.png" alt="II Logo"></p>   
 
 ## Who are we  
 We are a group of Minecraft modders, who mainly work on the mod [Immersive Intelligence](https://github.com/Team-Immersive-Intelligence/ImmersiveIntelligence), an addon to [Immersive Engineering](https://github.com/BluSunrize/ImmersiveEngineering).<br>
