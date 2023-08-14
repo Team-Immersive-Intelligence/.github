@@ -1,6 +1,9 @@
 #
 <p align="center"><img src="profile/logofullhq.png" alt="II Logo"></p>   
 
+[![Join Here](https://img.shields.io/discord/610912351142674434?color=%237289da&label=Discord)](https://discord.gg/teMfm3R)
+[![Become a Patron](https://img.shields.io/badge/Become%20a%20Patron-Pabilo8-red?style=flat-square&logo=patreon)](https://www.patreon.com/bePatron?u=34304036)
+
 ## Who are you?  
 We are a group of Minecraft modders, who mainly work on the mod [Immersive Intelligence](https://github.com/Team-Immersive-Intelligence/ImmersiveIntelligence), an addon to [Immersive Engineering](https://github.com/BluSunrize/ImmersiveEngineering).<br>
 We plan to expand our portfolio of mods with new IE addons, to enhance the game even further.<br>
