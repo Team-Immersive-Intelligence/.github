@@ -1,0 +1,94 @@
+
+.site-header {
+  background-color: #464670;
+  background-image: url("../assets/header/header_static.png");
+  background-repeat: repeat, no-repeat;
+  background-size: 512px;
+  height: 254px;
+  width: 100%;
+}
+
+.site-header-parallax {
+  background-color: #464670;
+  background-image: url("../assets/header/header_static_full.png"), linear-gradient(to bottom, #464670 0%, #575786 49%, $background-color 50%, $background-color);
+  background-repeat: repeat-x, repeat-x;
+  background-size: 60%, 100%;
+
+  background-position: center center;
+  height: 54vw;
+  width: 100%;
+}
+
+.scene {
+  overflow: hidden;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  position: absolute;
+  width: 100%;
+  height: 48vw;
+  top:4vw;
+  z-index: 1;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@for $i from 0 through 4 {
+  .layer-element[hans="#{$i}"]{
+    top:60% !important;
+    bottom:40% !important;
+    left:-12.5% !important;
+    background-image: url("../assets/header/hanses#{$i}.png");
+    background-size: 35%;
+    background-repeat: repeat-x;
+    background-clip: padding-box;
+
+    width: 150%;
+    height: 24vw;
+  }
+}
+
+.layer-element-scene {
+  background-image: url("../assets/header/scene-full.png");
+  background-size: 35%;
+  background-repeat: no-repeat;
+
+  top:25% !important;
+  bottom: 75% !important;
+  left:22.5% !important;
+  width: 150%;
+  height: 48vw;
+}
+
+.layer-element-drone {
+  background-image: url("../assets/header/drone2.gif");
+  background-size: 22%;
+  background-repeat: no-repeat;
+
+  top:10% !important;
+  bottom: 75% !important;
+  left:40% !important;
+  width: 110%;
+  height: 48vw;
+}
+
+#logo {
+  width: 55vw;
+  padding-left: 5vh;
+  font-size: 3vw;
+  line-height: 1;
+
+  img {
+    float: left;
+    width: 15vw;
+    height: auto;
+    padding-right: 0.5vw;
+  }
+
+  b {
+    font-size: 6vw;
+  }
+}

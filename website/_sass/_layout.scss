@@ -1,0 +1,474 @@
+.site-nav {
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        fill: $text-color;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+      margin-left: 20px;
+    }
+  }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+  background: $footer-color;
+  border-top-width: 8px;
+  border-top-style: solid;
+  border-image: linear-gradient(to bottom, $background-color, $footer-color) 24;
+  padding: $spacing-unit 0;
+}
+
+.footer-heading {
+  @include relative-font-size(1.125);
+  margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.footer-col-wrapper {
+  @include relative-font-size(0.9375);
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit;
+  padding-top: $spacing-unit/2;
+  background-color: $page-color;
+  color:$page-text-color;
+
+  background-image:
+          radial-gradient(
+                          circle at 12px 16px,
+                          $background-color 8px,
+                          $page-color 4px,
+                          $page-color 4px
+          ),
+          linear-gradient(45deg, darken($page-color, 5%) 0%, darken($page-color, 5%) 50%, $background-color 50%, $background-color 100%);
+  background-size: 24px 48px, 64px 64px;
+  background-repeat: no-repeat repeat, no-repeat no-repeat;
+  background-position: left top, right top;
+
+  box-shadow: 4px 64px 0 $footer-color;
+  flex: 1;
+}
+
+.page-heading {
+  @include relative-font-size(2);
+}
+
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+.post-photo {
+  rotate: 2.5deg;
+  background-color: $text-color;
+  border: 8px solid darken($text-color,5%);
+  box-shadow: #051E1C19 4px 4px;
+  margin: 4px;
+  margin-bottom: 8px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h2 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+/*Person Display*/
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2vh;
+}
+
+.person-grid {
+  background-color: darken($page-color,5%);
+  padding-left: -5%;
+  margin-left: 2%;
+  width: 45%;
+  height: 75%;
+  border: $page-color dotted;
+}
+
+.person {
+  background-color: darken($page-color,5%);
+  padding-left: -5%;
+  margin-left: 2%;
+  border: $page-color dotted;
+}
+
+.person-photo {
+  width: 85%;
+  rotate: -2.5deg;
+  background-color: $text-color;
+  border: 6px solid darken($text-color,5%);
+  box-shadow: #051E1C19 4px 4px;
+  margin: 4px;
+  margin-bottom: 8px;
+  margin-left: 0;
+  transform: translate(-8px, 2px);
+}
+
+.person-paperclip {
+  width: 50%;
+  transform: translate(-60%, -230%);
+}
+
+.person-side {
+  width: 25%;
+  float: left;
+}
+
+.person-side-info {
+  float: right;
+  width: 75%;
+  font-size: small;
+  font-style: italic;
+  font-family: $code-font-family;
+
+  h1 {
+    font-style: normal;
+    font-family: $menu-font-family;
+    margin-bottom: 0;
+  }
+}
+
+.person-badge {
+  margin-top: 2px;
+  width: 10%;
+  padding: 3px;
+  border: 3px dotted $page-text-color;
+  border-radius: 50%;
+  fill: red;
+}
+
+.person-footer {
+  clear: both;
+  width: 95%;
+  margin: 0.5%;
+  margin-left: 2.5%;
+  background-color:  darken($page-color,8%);
+}
+
+/*Hiring Display*/
+
+.hiring {
+  color: $page-text-color;
+  text-decoration: none;
+
+  background-color: darken($page-color,5%);
+  padding: 5%;
+  padding-top: 8%;
+  margin-left: 2%;
+  border-right: $page-color dotted;
+  border-left: $page-color dotted;
+  position: relative;
+  padding-bottom: 70%;
+  margin-bottom: 30%;
+
+  background-image:
+          linear-gradient(90deg, darken($page-color,5%) 0%, darken($page-color,5%) 85%, $page-color 86%, $page-color 100%);
+  background-size: 15% 10vh;
+  background-repeat: repeat no-repeat;
+  background-position: left bottom;
+}
+
+#a-hiring {
+  text-decoration: none;
+}
+
+.hiring-ministry {
+  width: 100%;
+  text-align: center;
+}
+
+.hiring-footer {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hiring-approved {
+  margin-top: 12.5%;
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+}
+
+.hiring-stamp {
+  margin: 5%;
+  width: 40%;
+  float: right;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vh;
+}
+
+/*Project Display*/
+
+.project {
+  background-color: darken($text-color,5%);
+  border: 8px solid darken($text-color,5%);
+  box-shadow: #051E1C19 4px 4px;
+  margin: 4px;
+  margin-bottom: 8px;
+}
+
+.project-logo {
+  width: 100%;
+  text-align: center;
+  aspect-ratio : 1 / 1;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+
+  background-color: darken($text-color, 15%);
+}
+
+.project-logo img {
+  width: 90%;
+}
+
+.project-description {
+  clear: both;
+  width: 100%;
+}
+
+.project-type {
+  float: left;
+  width: 45%;
+  text-align: center;
+
+  background-color: #988d81;
+  font-weight: bold;
+  border-left: 3px dotted darken($text-color,5%);
+  border-right: 3px dotted darken($text-color,5%);
+  padding: 0.5%;
+
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.project-status {
+  float: right;
+  width: 45%;
+  text-align: center;
+
+  background-color: #a2a2a2;
+  font-weight: bold;
+  border-left: 3px dotted darken($text-color,5%);
+  border-right: 3px dotted darken($text-color,5%);
+  padding: 0.5%;
+
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.project-status[status="released"]
+{
+  background-color: #cb7832;
+}
+
+.project-status[status="soon"]
+{
+  background-color: #555555;
+}
+
+.project-status[status="abandoned"]
+{
+  background-color: #1e1e1e;
+  color: $text-color;
+}
+
+.project-content {
+}
+
+.project-links {
+
+}

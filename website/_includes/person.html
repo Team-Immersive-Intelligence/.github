@@ -1,0 +1,45 @@
+{% assign person = site.data.team_members[include.person] %}
+<div class="person" id="{{ include.person }}">
+    <div class="person-side">
+        <img class="person-photo" src="../assets/members/{{ include.person }}.jpg">
+        <img class="person-paperclip" src="../assets/members/paperclip.svg">
+
+    </div>
+    <div class="person-side-info">
+        <h1>{{ person.name }}</h1>
+        <hr>
+        {{ person.description }}
+    </div>
+    <div class="person-footer">
+        {% if person.roles contains 'commander' %}
+        <abbr title="Team Leader">
+            <img class="person-badge" src="../assets/members/badges/commander.svg">
+        </abbr>
+        {% endif %}
+        {% if person.roles contains 'programmer' %}
+        <abbr title="Programmer">
+            <img class="person-badge" src="../assets/members/badges/programmer.png">
+        </abbr>
+        {% endif %}
+        {% if person.roles contains 'modeller' %}
+        <abbr title="3D Modeller">
+            <img class="person-badge" src="../assets/members/badges/modeller.png">
+        </abbr>
+        {% endif %}
+        {% if person.roles contains 'artist' %}
+        <abbr title="Artist">
+            <img class="person-badge" src="../assets/members/badges/artist.svg">
+        </abbr>
+        {% endif %}
+        {% if person.roles contains 'archivist' %}
+        <abbr title="Archivist">
+            <img class="person-badge" src="../assets/members/badges/archivist.png">
+        </abbr>
+        {% endif %}
+        {% if person.roles contains 'documenteer' %}
+        <abbr title="Documentation Specialist">
+            <img class="person-badge" src="../assets/members/badges/documenteer.png">
+        </abbr>
+        {% endif %}
+    </div>
+</div>

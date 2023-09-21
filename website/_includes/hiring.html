@@ -1,0 +1,28 @@
+{% assign person = site.data.hiring[include.person] %}
+<a href="mailto:pabilo@iiteam.net?subject=Team II {{ person.name }} Application" id="a-hiring">
+<div class="hiring">
+        <div class="hiring-ministry">Ministry of Development</div>
+        <b>{{person.name}}</b><br>
+        To apply for this role you need:
+        <ul class="highlight">
+            {% for prerequisite in person.prerequisites %}
+            <li>{{ prerequisite }}</li>
+            {% endfor %}
+        </ul>
+        Tasks Include:
+        <ul class="highlight">
+            {% for chore in person.chores %}
+            <li>{{ chore }}</li>
+            {% endfor %}
+        </ul>
+        Your contribution will lead to:
+        <div class="highlight">
+            {{ person.cause }}
+        </div>
+        <div class="hiring-footer">
+            <hr>
+            <div class="hiring-approved">Approved, <br><span class="highlight">{{ person.since }}</span></div>
+            <img src="../assets/members/badges/hiring_stamp.png" class="hiring-stamp"/>
+        </div>
+</div>
+</a>

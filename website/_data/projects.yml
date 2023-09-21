@@ -1,0 +1,76 @@
+immersive_intelligence:
+  id: immersive_intelligence
+  name: Immersive Intelligence
+  type: Minecraft Mod
+  status: released
+  description: An addon for Immersive Engineering focused on Electronics, Warfare, Logistics and Intelligence
+  github: Team-Immersive-Intelligence/ImmersiveIntelligence
+  curseforge_name: mc-mods/immersive_intelligence
+  curseforge_id: 344344
+
+structural_engineering:
+  id: structural_engineering
+  name: Structural Engineering
+  type: Minecraft Mod
+  status: soon
+  description: An addon for Immersive Engineering focused on Early Game, Decorations and Quality of Life features.
+
+ctmb:
+  id: ctmb
+  name: Crafttweaked Multiblocks
+  type: Minecraft Mod
+  status: soon
+  description: An addon to CraftTweaker allowing modpack makers to add their own Immersive Engineering multiblocks.
+  github: Pabilo8/Crafttweaked-Multiblocks
+
+modworks:
+  id: modworks
+  name: ModWorks
+  type: Developer Tools
+  status: released
+  description: An Annotation Processor and Asset/Code Generator used to enhance Minecraft Mod development.
+  github: Team-Immersive-Intelligence/ModworksProcessor
+
+mod_build_script:
+  id: mod_build_script
+  name: Mk. 4/5 Mod Build Script
+  type: Developer Tools
+  status: released
+  description: A 1.12 Forge Mod Build Script that provides boilerplate for code signing, creating core jars and asset generation through ModWorks. It is powered by a modernised ForgeGradle 2.3 Fork by Anatawa.
+
+kraftwerk:
+  id: kraftwerk
+  name: Kraftwerk
+  type: Software
+  status: abandoned
+  description: A proprietary, mod-developer-oriented 3D Model Editor supporting multiple formats, from SMP Toolbox to Blockbench to MCX. Abandoned in favour of our Blockbench plugin.
+  github: Pabilo8/Kraftwerk
+
+ii_toolkit:
+  id: ii_toolkit
+  name: IIToolkit
+  type: Blockbench Plugin
+  status: soon
+  description: A Blockbench plugin that provides tools for exporting AMT format animations. Allows embedding AMT rendering components such as Items, Fluids, Bullets and Wires in models. Offers a collision box (AABB) editor for multiblocks and multipart entities.
+  github: Team-Immersive-Intelligence/ii-blockbench-plugin
+
+hans_motion_capture:
+  id: hans_motion_capture
+  name: Hans Motion Capture
+  type: Software
+  status: abandoned
+  description: Motion Capture software that allows creating animations for minecraft humanoid characters (Immersive Intelligence's Hanses) using an Xbox 360's Kinect Sensor.
+
+sounddepot:
+  id: sounddepot
+  name: SoundDepot
+  type: Website
+  status: soon
+  description: A free, open source repository of high-quality sound effects for Minecraft Modders and Video Game Developers.
+
+pol:
+  id: pol
+  name: POL
+  type: Programming Language
+  status: soon
+  description: A proprietary programming language designed for Immersive Intelligence's Mainframe Computers. Draws many inspirations from FORTRAN and LISP.

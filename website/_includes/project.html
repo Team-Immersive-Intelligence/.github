@@ -1,0 +1,45 @@
+{% assign project = site.data.projects[include.project] %}
+<div class="project" id="{{ project.name }}">
+    <div class="project-logo">
+        <b>
+            {% capture jpg_path %}/assets/projects/{{ project.id }}.png{% endcapture %}
+            {% assign file = site.static_files | where: "path", jpg_path | first %}
+            {% if file %}
+            <img src="./assets/projects/{{project.id}}.png" alt="{{project.name}}">
+            {% else %}
+            {{project.name}}
+            {% endif %}
+        </b>
+    </div>
+    <div class="project-content">
+        <div class="project-type">{{project.type}}</div>
+        <div class="project-status" status="{{project.status}}">
+            {% case project.status %}
+            {% when 'released' %}
+                Released!
+            {% when 'soon' %}
+                Soon™
+            {% when 'abandoned' %}
+                Abandoned
+            {% else %}
+                Unknown
+            {% endcase %}
+        </div>
+        <div class="project-description"><div class="highlight">{{project.description}}</div></div>
+    </div>
+
+    <div class="project-links">
+        {% if project.curseforge_id %}
+        <a href="https://www.curseforge.com/minecraft/{{ project.curseforge_name }}">
+            <img src="https://cf.way2muchnoise.eu/versions/{{ project.curseforge_id }}_latest.svg">
+        </a>
+        {% endif %}
+
+        {% if project.github %}
+        <a href="https://github.com/{{ project.github }}">
+            <img alt="GitHub Repo stars" src="https://img.shields.io/badge/GitHub-{{ project.id }}-797979?logo=github&labelColor=2d2d2d">
+        </a>
+        {% endif %}
+    </div>
+
+</div>

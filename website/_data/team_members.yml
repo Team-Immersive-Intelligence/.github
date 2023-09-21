@@ -1,0 +1,71 @@
+pabilo:
+  id: pabilo
+  name: Pabilo
+  description: |
+    Whether present online or not, probably works on some project.<br>
+    "They may add sails to their boat, but we're building a battleship!"<br>
+    *Soon™*
+  roles:
+    - commander
+    - programmer
+    - modeller
+    - artist
+  github: pabilo8
+
+carver:
+  id: carver
+  name: Carver
+  description: |
+    Enthusiast of heavy artillery and anything Warhammer.<br>
+    Can produce a mountain of models in a day if left without supervision.<br>
+    *hammering intensifies*
+  roles:
+    - modeller
+    - artist
+    - archivist
+  github: carvercarver1
+
+schaeferd:
+  id: schaeferd
+  name: Schäferd
+  description: |
+    An Artist helping the II Kombinat.<br>
+    Fan of Jakub Różalski, likes painting worlds of his own in similar aesthetic.<br>
+    *Ja Hans, JA*
+  roles:
+    - modeller
+    - artist
+  github: carvercarver1
+
+bastian:
+  id: bastian
+  name: Bastian
+  description: |
+    Responsible for moving the II manual to the new system.<br>
+    Enthusiast of Civil Engineering.<br>
+    *hey, kid, wanna buy some CARDBOARD BOXES?*
+  roles:
+    - documenteer
+    - archivist
+  github: rexbas07
+
+gabriel:
+  id: gabriel
+  name: Gabriel
+  description: |
+    Enthusiast of programming and cryptography.<br>
+    Likes stuff documented.<br>
+    *The Gradlephant has Spoken.*
+  roles:
+    - programmer
+    - documenteer
+  github: vdeltagabriel
+
+carverbot:
+  id: carverbot
+  name: Automated Carver Device™
+  alias:
+  description: |
+    Listen to the sounds of your own extinction, human...
+  roles:
+  github: carverbot
