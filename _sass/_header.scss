@@ -10,7 +10,7 @@
 
 .site-header-parallax {
   background-color: #464670;
-  background-image: url("../assets/header/header_static_full.png"), linear-gradient(to bottom, #464670 0%, #575786 49%, $background-color 50%, $background-color);
+  background-image: url("../assets/header/header_static_full.svg"), linear-gradient(to bottom, #464670 0%, #575786 49%, $background-color 50%, $background-color);
   background-repeat: repeat-x, repeat-x;
   background-size: 60%, 100%;
 
@@ -41,7 +41,7 @@
     top:60% !important;
     bottom:40% !important;
     left:-12.5% !important;
-    background-image: url("../assets/header/hanses#{$i}.png");
+    background-image: url("../assets/header/hanses#{$i}.svg");
     background-size: 35%;
     background-repeat: repeat-x;
     background-clip: padding-box;
