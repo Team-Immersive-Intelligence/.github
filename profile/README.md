@@ -1,5 +1,5 @@
 #
-<p align="center"><img src="profile/logofullhq.png" alt="II Logo"></p>   
+<p align="center"><img src="logofullhq.png" alt="II Logo"></p>   
 
 [![Join Here](https://img.shields.io/discord/610912351142674434?color=%237289da&label=Discord)](https://discord.gg/teMfm3R)
 [![Become a Patron](https://img.shields.io/badge/Become%20a%20Patron-Pabilo8-red?style=flat-square&logo=patreon)](https://www.patreon.com/bePatron?u=34304036)
