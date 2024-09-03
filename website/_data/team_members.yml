@@ -12,6 +12,28 @@ pabilo:
     - artist
   github: pabilo8
 
+gabriel:
+  id: gabriel
+  name: Gabriel
+  description: |
+    Enthusiast of programming and cryptography.<br>
+    Likes stuff documented.<br>
+    *The Gradlephant has Spoken.*
+  roles:
+    - programmer
+    - documenteer
+  github: vdeltagabriel
+
+avalon:
+  id: avalon
+  name: Avalon
+  description: |
+    Resident bug squishier and avid fish fan(tm).<br>
+    *Slightly radioactive.*
+  roles:
+    - programmer
+  github: Avalon2106
+
 carver:
   id: carver
   name: Carver
@@ -35,7 +57,28 @@ schaeferd:
   roles:
     - modeller
     - artist
-  github: carvercarver1
+  github: Schaeferd-CZ
+
+peter:
+  id: peter
+  name: Peter
+  description: |
+    Nature does not build machines, locomotives, railways, electric telegraphs, self-acting devices, etc....<br>
+    All these are organs of the human brain created by human hands; the materialized power of knowledge.
+  roles:
+    - modeller
+    - artist
+  github: cordyceps22
+
+trej:
+  id: trej
+  name: Trej
+  description: |
+    *Soon™*
+  roles:
+    - modeller
+    - artist
+  github: trej32
 
 bastian:
   id: bastian
@@ -48,18 +91,6 @@ bastian:
     - documenteer
     - archivist
   github: rexbas07
-
-gabriel:
-  id: gabriel
-  name: Gabriel
-  description: |
-    Enthusiast of programming and cryptography.<br>
-    Likes stuff documented.<br>
-    *The Gradlephant has Spoken.*
-  roles:
-    - programmer
-    - documenteer
-  github: vdeltagabriel
 
 carverbot:
   id: carverbot

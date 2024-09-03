@@ -1,7 +1,7 @@
 {% assign person = site.data.team_members[include.person] %}
 <div class="person" id="{{ include.person }}">
     <div class="person-side">
-        <img class="person-photo" src="../assets/members/{{ include.person }}.jpg">
+        <a href="https://github.com/{{ person.github }}"><img class="person-photo" src="../assets/members/{{ include.person }}.jpg"></a>
         <img class="person-paperclip" src="../assets/members/paperclip.svg">
 
     </div>
