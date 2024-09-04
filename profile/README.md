@@ -41,6 +41,8 @@ We are in need of a:
 - Java Programmer - who will join Code Department    in the coding efforts
 - Sound Designer - for making various Machine Noises™
 
+For more positions and for contact to apply for them check our [site](https://www.iiteam.net/#new-members).
+
 ## What else do you do?
 Aside all mentioned above, we also do research on new technologies in minecraft modding, such as 
 - our 3D model format - AMT and a plugin for Blockbench, related to it
