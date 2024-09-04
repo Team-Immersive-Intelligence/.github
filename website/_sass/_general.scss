@@ -176,6 +176,7 @@ pre {
 }
 
 .navbar {
+  z-index: 10000; /* Make it *always* visible ~Gabriel */
   position: sticky;
   top: 0;
 }
