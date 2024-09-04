@@ -175,7 +175,10 @@ pre {
   }
 }
 
-
+.navbar {
+  position: sticky;
+  top: 0;
+}
 
 /**
  * Wrapper
