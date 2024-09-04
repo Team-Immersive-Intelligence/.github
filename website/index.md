@@ -45,7 +45,7 @@ We are in need of a:
 
 {% else %}
 
-For now we're not in a need of anything in particular, but you may send a message to [pabilo@iiteam.net](mailto:pabilo@iiteam.net) to see how you can help.
+For now we're not in a need of anything in particular, but you may send a message to [team@iiteam.net](mailto:team@iiteam.net) to see how you can help.
 
 {% endif %}
 
