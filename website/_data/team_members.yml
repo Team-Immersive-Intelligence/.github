@@ -63,11 +63,9 @@ tokarev:
   id: tokarev
   name: Tokarev
   description: |
-    a, no tak<br>
-    Doktor Livesey<br>
-    Bardzo dobry i wesoły człowiek<br>
-    Charakter (osobowość) otwarty.<br>
-    Nie żonaty.<br>
+    Never ending his paperwork and improvement on vehicle and gun design.<br>
+    The soldier of II.<br>
+    *Żabka)*
   roles:
     - modeller
     - artist
@@ -88,7 +86,9 @@ trej:
   id: trej
   name: Trej
   description: |
-    *Soon™*
+    3D Modeler and texturer specializing in vehicles, whether moving on ground or airborne.<br>
+    Always strives for authentic and eye-pleasing designs.<br>
+    *bim bim bam bam*
   roles:
     - modeller
     - artist
