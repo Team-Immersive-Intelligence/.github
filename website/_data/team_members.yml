@@ -59,6 +59,20 @@ schaeferd:
     - artist
   github: Schaeferd-CZ
 
+tokarev:
+  id: tokarev
+  name: Tokarev
+  description: |
+    a, no tak<br>
+    Doktor Livesey<br>
+    Bardzo dobry i wesoły człowiek<br>
+    Charakter (osobowość) otwarty.<br>
+    Nie żonaty.<br>
+  roles:
+    - modeller
+    - artist
+  github: TokarevDrozd
+
 peter:
   id: peter
   name: Peter
