@@ -19,12 +19,15 @@ Team Immersive Intelligence/
 ├── Code Department/
 │   ├── @Pabilo8 (Pabilo8) - Project Lead, Programmer, probably can design a working battleship after a few beers
 │   ├── @VDeltaGabriel (VDeltaGabriel) - Programmer, Assistant in Logical Design and a certified gradlephant tamer™
+│   ├── @DotPrism (MagneticPrismMC) - Programmer, a relatively recent recruit to the department as of Feb. 21 2024 *Filthy Commie™*/*Dumb American*
+│   ├── @perevozke (perevozke) - Programmer, an even more recent recruit to the department
 │   └── @Avalon (Avalon2106) - Programmer, helps us with miscellaneous fixes, works at the Department of Chemical Engineering
 ├── Art Department/
 │   ├── @Carver (Carvercarver1) - Main Modeler, Animator, Archivist, Assistant, a fellow howitzer enthusiast, and world destroyer
 │   ├── @Schäferd (Schaeferd-CZ) - UV Mapper, Texturer, Modeler, Animator, Artist, a fellow retro-futurist and also *The Czech™*
 │   ├── @Peter (Cordyceps22) - 3D Modeler, Artist, helps and maintains order in our Russian-speaking community
 │   ├── @Trej (trej32) - 3D Modeler, Texture, author of many vehicles, part of Trej-Tokarev Wagonzavod
+│   ├── @Maxis175 (Maksimus1008) - 3D Modeler, Texturer, the most recent recruit to the department
 │   └── @Tokarev (TokarevDrozd) - 3D Modeler, author of vehicles, the Soldier of II - he maintains order in Standards Documentation<br>
 └── Paperwork Department/
     ├── Legal Department/
