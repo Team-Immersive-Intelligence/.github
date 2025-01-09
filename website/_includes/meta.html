@@ -9,4 +9,29 @@
   <meta property="og:url" content="https://www.iiteam.net/" />
   <meta property="og:image" content="https://www.iiteam.net/assets/header/hammer_logo.png" />
   <title>{{ site.title }} | {{ page.title }}</title>
+
+  <script>
+    window.onload = function () {
+      const navbar = document.getElementById('navbar');
+
+      function updateNavbarColor() {
+        const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+        const sectionElement = document.getElementById('banner');
+        const rect = sectionElement.getBoundingClientRect();
+        const sectionTop = rect.top + window.scrollY;
+        const sectionBottom = sectionTop + sectionElement.offsetHeight;
+
+        if (scrollPosition >= sectionTop && scrollPosition <= sectionBottom) {
+          navbar.className = `sec0`;
+        } else {
+          navbar.className = `sec1`;
+        }
+      }
+
+      updateNavbarColor();
+      window.addEventListener('scroll', updateNavbarColor);
+    }
+
+  </script>
 </head>

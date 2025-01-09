@@ -261,3 +261,36 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/**
+ * Member badges
+ */
+abbr[badge-popup] {
+  position: relative;
+  cursor: help;
+  text-decoration: underline dotted;
+}
+
+abbr[badge-popup]::after {
+  content: attr(badge-popup);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  pointer-events: none;
+}
+
+abbr[badge-popup]:hover::after {
+  opacity: 1;
+  visibility: visible;
+}

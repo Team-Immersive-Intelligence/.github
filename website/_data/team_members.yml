@@ -21,6 +21,7 @@ gabriel:
     *The Gradlephant has Spoken.*
   roles:
     - programmer
+    - paperwork
     - documenteer
   github: vdeltagabriel
 

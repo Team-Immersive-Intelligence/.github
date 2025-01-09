@@ -31,6 +31,14 @@ modworks:
   description: An Annotation Processor and Asset/Code Generator used to enhance Minecraft Mod development.
   github: Team-Immersive-Intelligence/ModworksProcessor
 
+mctranslator:
+  id: mctranslator
+  name: MCTranslator
+  type: Developer Tools
+  status: released
+  description: Small Java program to convert between csv and minecraft's lang formats
+  github: Team-Immersive-Intelligence/MCTranslator
+
 mod_build_script:
   id: mod_build_script
   name: Mk. 4/5 Mod Build Script

@@ -1,0 +1,26 @@
+#navbar {top: 0; position: sticky; z-index: 10; transition: background-color 0.3s, color 0.3s;}
+
+.sec0 {
+  background-color: #464670;
+}
+
+.sec1 {
+  background-color: #2f2b26;
+}
+
+#navbar table {
+  margin: 0;
+}
+
+#navbar .fill {
+  width: 25%;
+}
+
+#navbar .content {
+  width: 50%;
+}
+
+#navbar table, tr, td {
+  padding: 0 !important;
+  border: 0 !important;
+}

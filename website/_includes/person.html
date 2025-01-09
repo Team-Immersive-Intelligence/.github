@@ -12,33 +12,38 @@
     </div>
     <div class="person-footer">
         {% if person.roles contains 'commander' %}
-        <abbr title="Team Leader">
+        <abbr badge-popup="Team Leader">
             <img class="person-badge" src="../assets/members/badges/commander.svg">
         </abbr>
         {% endif %}
         {% if person.roles contains 'programmer' %}
-        <abbr title="Programmer">
+        <abbr badge-popup="Programmer">
             <img class="person-badge" src="../assets/members/badges/programmer.png">
         </abbr>
         {% endif %}
         {% if person.roles contains 'modeller' %}
-        <abbr title="3D Modeller">
+        <abbr badge-popup="3D Modeller">
             <img class="person-badge" src="../assets/members/badges/modeller.png">
         </abbr>
         {% endif %}
         {% if person.roles contains 'artist' %}
-        <abbr title="Artist">
+        <abbr badge-popup="Artist">
             <img class="person-badge" src="../assets/members/badges/artist.svg">
         </abbr>
         {% endif %}
         {% if person.roles contains 'archivist' %}
-        <abbr title="Archivist">
+        <abbr badge-popup="Archivist">
             <img class="person-badge" src="../assets/members/badges/archivist.png">
         </abbr>
         {% endif %}
         {% if person.roles contains 'documenteer' %}
-        <abbr title="Documentation Specialist">
+        <abbr badge-popup="Documentation Specialist">
             <img class="person-badge" src="../assets/members/badges/documenteer.png">
+        </abbr>
+        {% endif %}
+        {% if person.roles contains 'paperwork' %}
+        <abbr badge-popup="Paperwork Department">
+            <img class="person-badge" src="../assets/members/badges/paperwork.svg">
         </abbr>
         {% endif %}
     </div>
