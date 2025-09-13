@@ -6,27 +6,32 @@ programmer0:
     - Helping @Pabilo8 and @Gabriel
   prerequisites:
     - Knowledge of Java/Programming
-    - Experience with Minecraft Modding (not necessarily development)
+    - Experience with Minecraft Modding (not necessarily mod development)
     - Ability to learn from someone else's code
   cause: Faster bugfixes and releases of new mod versions
   since: 3.07.2023
-sound_designer0:
-  id: sound_designer0
-  name: Sound Designer
+programmer1:
+  id: programmer1
+  name: Typescript Programmer
   chores:
-    - Designing sound effects
+    - Maintaining our IIToolkit Blockbench Plugin 
+    - Miscellaneous web development works (sparingly)
   prerequisites:
-    - Experience with Audacity or similar software
-    - Ability to record sounds for resampling is welcome
-  cause: An improvement to mod's sound effects and contribution to SoundDepot, our free and open-source sounds library
-  since: 15.08.2023
-uv_mapper0:
-  id: uv_mapper0
-  name: UV-Mapper
+    - Knowledge of Javascript (and preferably TypeScript)
+    - Experience with OpenGL, the Wavefront OBJ format, and Blockbench is welcome
+    - Ability to study and maintain an existing codebase
+  cause: Faster bugfixes and releases of new mod versions
+  since: 13.09.2025
+technical_modeler0:
+  id: technical_modeler0
+  name: Technical Modeler
   chores:
-    - UV-mapping and texturing 3D models
+    - Fitting existing 3D models to work in game
+    - Exporting models and animations
+    - Basic Renderer Programming
   prerequisites:
     - Will to Work
-    - Knowledge of GIMP or similar software is welcome
+    - Moderate knowledge of Blockbench
+    - Moderate knowledge of Java
   cause: Faster move from the slow and deprecated TMT renderer to the new performant AMT technology.
-  since: 1.03.2022
+  since: 13.09.2025
